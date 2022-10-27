@@ -1,5 +1,5 @@
 .dark {
-  color: var(--primary-dark);
+  color: var(--violet);
   transition: 0.2s ease-in-out;
 }
 
@@ -14,5 +14,5 @@
 
 .link:hover,
 .link:active {
-  color: var(--hover-dark);
+  color: var(--light-violet);
 }

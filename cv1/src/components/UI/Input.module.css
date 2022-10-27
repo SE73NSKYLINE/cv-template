@@ -28,7 +28,6 @@
 .input-field:focus {
   outline: none;
   background-color: var(--secondary-gray);
-  border-left: 3px solid var(--primary-dark);
 }
 
 .input-label {

@@ -9,7 +9,7 @@
 .button:hover,
 .button:active {
   color: var(--primary-dark);
-  background: var(--secondary-gray);
+  background: var(--light-violet);
 }
 
 .alt {

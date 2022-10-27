@@ -13,11 +13,11 @@
 
 .organization {
   line-height: 1.4;
-  color: var(--secondary-dark);
+  color: var(--violet);
   text-transform: uppercase;
 }
 
 .year {
   font-size: 1.2rem;
-  color: var(--secondary-dark);
+  color: var(--violet);
 }

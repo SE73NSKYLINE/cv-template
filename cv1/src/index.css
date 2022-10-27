@@ -1,4 +1,6 @@
   :root {
+  --violet: #4B0082;
+  --light-violet: #b54dff;
   --primary-dark: #374151;
   --secondary-dark: #9ca3af;
   --hover-dark: #4c596d;
@@ -26,7 +28,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 1.6rem;
   font-weight: 400;
-  color: var(--primary-dark);
+  color: var(--violet);
   background-color: var(--primary-light);
   height: 100vh;
 }

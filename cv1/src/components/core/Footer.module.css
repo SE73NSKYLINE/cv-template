@@ -1,11 +1,11 @@
 .footer {
-  background-color: var(--primary-dark);
+  background-color: var(--violet);
   color: var(--secondary-gray);
   text-align: center;
   padding: 1rem;
   font-size: 1.2rem;
   position: relative;
-  bottom: -135px;
+  bottom: -157px;
 }
 
 a:link,

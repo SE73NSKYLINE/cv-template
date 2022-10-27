@@ -16,5 +16,4 @@
 
 .textarea:focus {
   background-color: var(--secondary-gray);
-  border-left: 3px solid var(--primary-dark);
 }
