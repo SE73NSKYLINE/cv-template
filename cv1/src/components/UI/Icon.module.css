@@ -1,0 +1,18 @@
+.dark {
+  color: var(--primary-dark);
+  transition: 0.2s ease-in-out;
+}
+
+.light {
+  color: var(--secondary-gray);
+  transition: 0.2s ease-in-out;
+}
+
+.link {
+  cursor: pointer;
+}
+
+.link:hover,
+.link:active {
+  color: var(--hover-dark);
+}

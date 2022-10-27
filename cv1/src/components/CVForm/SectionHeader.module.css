@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background-color: var(--primary-dark);
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  transition: 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.header:hover,
+.header:active {
+  background-color: var(--hover-dark);
+}
+
+.header h3 {
+  font-size: 1.6rem;
+  color: var(--secondary-gray);
+  font-weight: 400;
+}

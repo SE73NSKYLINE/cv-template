@@ -1,0 +1,71 @@
+  :root {
+  --primary-dark: #374151;
+  --secondary-dark: #9ca3af;
+  --hover-dark: #4c596d;
+  --primary-light: #fff;
+  --secondary-light: #f3f4f6;
+  --primary-gray: #d1d5db;
+  --secondary-gray: #e5e7eb;
+  --primary-red: #9f1239;
+  --hover-red: #881337;
+}
+
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--primary-dark);
+  background-color: var(--primary-light);
+  height: 100vh;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+button {
+  cursor: pointer;
+  background: transparent;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--secondary-dark);
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  margin-bottom: 1rem;
+}
+
+hr {
+  margin: 2.4rem 0;
+  border: 1px solid var(--secondary-gray);
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+@media (max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}
